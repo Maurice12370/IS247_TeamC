@@ -12,7 +12,7 @@ Ajaybir Singh:
 - Implement Inheritance and Method overriding for specialized student types.
 - Handle Encapsulation and Constructor implementation.
 
-Hitesh Patel (You):
+Hitesh Patel:
 - Develop the Report generation module.
 - Implement Recursion for hierarchical report generation.
 - Manage Generics and ArrayList for storing reports.
