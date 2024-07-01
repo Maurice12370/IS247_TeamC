@@ -1,4 +1,4 @@
-public interface StudentManagementInterfacr  {
+public interface StudentManagementInterface {
 
     viod addStudent();
     void updateStudent();
