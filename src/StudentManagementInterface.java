@@ -1,6 +1,6 @@
 public interface StudentManagementInterface {
 
-    viod addStudent();
+    void addStudent();
     void updateStudent();
     void deleteStudent();
     void searchStudent();
