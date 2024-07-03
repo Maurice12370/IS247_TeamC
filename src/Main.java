@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -24,7 +26,7 @@ public class Main {
                     admin.searchStudent();
                     break;
                 case 5:
-                    admin.generateReport();
+                    admin.generateStudent();
                     break;
                 case 6:
                     System.exit(0);
