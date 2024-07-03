@@ -1,5 +1,12 @@
 Project Name: Student Management System
 
+What problem is our project trying to solve:
+The Student Management System (SMS) project aims to solve the problem of managing student records efficiently in an educational institution. 
+It allows administrators to easily add, update, delete, and search for student information. By organizing student data in a structured manner, 
+the system helps keep track of students' personal details, course enrollments, and grades. Additionally, it can generate reports to provide insights 
+into student performance and course participation. This project simplifies the process of handling student information, making it more accessible and 
+manageable for school administrators.
+
 Members: Abdul Jabbar Mohamed Sharif, Ajaybir Singh, Hitesh Patel, Maurice Johnson and Tejasav Singh
 
 Abdul Jabbar Mohamed Sharif:
@@ -26,10 +33,3 @@ Tejasav Singh:
 - Implement Stacks for undo functionalities.
 - Develop functionalities using Map for student records.
 - Utilize Java library classes like Date, and work on Println, printf methods for formatted output.
-
-What problem is our project trying to solve:
-The Student Management System (SMS) project aims to solve the problem of managing student records efficiently in an educational institution. 
-It allows administrators to easily add, update, delete, and search for student information. By organizing student data in a structured manner, 
-the system helps keep track of students' personal details, course enrollments, and grades. Additionally, it can generate reports to provide insights 
-into student performance and course participation. This project simplifies the process of handling student information, making it more accessible and 
-manageable for school administrators.
