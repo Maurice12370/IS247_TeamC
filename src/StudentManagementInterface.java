@@ -1,5 +1,4 @@
 public interface StudentManagementInterface {
-
     void addStudent();
     void updateStudent();
     void deleteStudent();
