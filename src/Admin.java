@@ -28,6 +28,15 @@ public class Admin implements StudentManagementInterface{
             //deletes ID
             studentMap.remove(studentID);
         }
+         @Override 
+        public void updateStudent(){
+            Scanner input - new Scanner(System.in);
+            System.out.println("Enter Student ID: ");
+            String studentID = input.nextLine();
+            if(studentMap.containsKey(studentID)){
+                System.out.println(name);
+                age = age++;
+                System.out.println("We have updated the age of " + student + " to " + age );
         @Override
         public void searchStudent(){
             Scanner input = new Scanner(System.in);
@@ -44,8 +53,13 @@ public class Admin implements StudentManagementInterface{
 
         }
         @Override
-         public void generateReport(){
-            //implement report generation
+         public void generateStudent(){
+            //generates report
+            for (Student student : studentMap.values()){
+                System.out.println("Name: " + student.getName());
+                System.out.println("Age: " + student.getAge());
+                System.out.println("Student ID: " + student.getStudentID());
+                System.out.println("Course: " + student.getCourse());
         }
     }
 
