@@ -1,15 +1,21 @@
 public class GraduateStudent extends Student {
-    private String thesisTitle;
+    private String researchTopic;
 
-    public GraduateStudent(String name, int age, String studentIO, String course, String thesisTitle) {
+    public GraduateStudent(String name, int age, String studentID, String course, String researchTopic) {
         super(name, age, studentID, course);
-        this.thesisTitle = thesisTitle;
+        this.researchTopic = researchTopic;
     }
 
-    public String getThesisTitle() {return thesisTitle;}
+    public String getResearchTopic() {
+        return researchTopic;
+    }
 
-    public void setThesisTitle(String thesisTitle){this.thesisTitle = thesisTitle;}
+    public void setResearchTopic(String researchTopic) {
+        this.researchTopic = researchTopic;
+    }
 
     @Override
-    public void updateInfo(String name){super.updateInfo(name);}
+    public void updateInfo(int age) {
+        super.updateInfo(age);
+    }
 }
