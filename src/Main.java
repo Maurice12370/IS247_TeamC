@@ -12,6 +12,7 @@ public class Main {
             System.out.println("5. Generate Report");
             System.out.println("6. Exit");
             int choice = scanner.nextInt();
+            scanner.nextLine(); // Consume newline
             switch (choice) {
                 case 1:
                     admin.addStudent();
@@ -26,7 +27,7 @@ public class Main {
                     admin.searchStudent();
                     break;
                 case 5:
-                    admin.generateStudent();
+                    admin.generateReport();
                     break;
                 case 6:
                     System.exit(0);
@@ -36,3 +37,4 @@ public class Main {
         }
     }
 }
+
