@@ -1,4 +1,15 @@
 public abstract class BaseEntity {
-  //Base fields and methods for all entities
-  public abstract void updateInfo(String info);
+    private String id;
+
+    public BaseEntity(String id) {
+        this.id = id;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
 }
