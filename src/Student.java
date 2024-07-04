@@ -1,13 +1,12 @@
-class Student {
+public class Student extends BaseEntity {
     private String name;
     private int age;
-    private String studentID;
     private String course;
 
     public Student(String name, int age, String studentID, String course) {
+        super(studentID);
         this.name = name;
         this.age = age;
-        this.studentID = studentID;
         this.course = course;
     }
 
@@ -29,11 +28,11 @@ class Student {
     }
 
     public String getStudentID() {
-        return studentID;
+        return super.getId();
     }
 
     public void setStudentID(String studentID) {
-        this.studentID = studentID;
+        super.setId(studentID);
     }
 
     public String getCourse() {
