@@ -68,7 +68,7 @@ public class Admin implements StudentManagementInterface {
     }
 
     @Override
-    public void generateStudent() {
+    public void generateReport() {
         for (Map.Entry<String, Student> entry : studentMap.entrySet()) {
             Student student = entry.getValue();
             System.out.println("ID: " + student.getStudentID() + ", Name: " + student.getName() + ", Age: " + student.getAge() + ", Course: " + student.getCourse());
