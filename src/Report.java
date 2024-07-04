@@ -7,3 +7,4 @@ public class Report {
         System.out.println("Course: " + student.getCourse());
     }
 }
+
