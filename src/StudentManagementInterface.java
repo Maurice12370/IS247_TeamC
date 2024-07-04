@@ -3,5 +3,5 @@ public interface StudentManagementInterface {
     void updateStudent();
     void deleteStudent();
     void searchStudent();
-    void generateStudent();
+    void generateReport();
 }
